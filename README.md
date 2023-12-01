@@ -62,41 +62,4 @@ The project includes a python build file that compiles the project into a binary
 python3 build.py && ./prog
 ```
 
-The default scene is *the Parallax at Dawn*, to render the scene with brick wall comparisons uncomment [this line](https://github.com/Fall23Graphics/finalproject-adams-team/blob/d084451d87c664aa9dd9c76684ac43d8468bde28/Parallax_Mapping/src/main.cpp#L248).
-
-## YouTube/Dropbox/Drive Link: Edit this line -- Put your link to your video(Preferably on YouTube) here (see deliverables)
-[Parallax Mapping Video](https://youtu.be/b_eStRV7Zlw)
-
-## Project information
-
-* Name and partners name(At most teams of 2 folks total)
-  * Team member 1: Adam Bosak
-* How many hours did it take you to complete this final project? 60 hours
-* Did you collaborate or share ideas with any other students/TAs/Professors? I asked Mike if the project is a good idea.
-* Did you use any external resources? 
-  * Note it is fair to utilize some tutorials--cite them here. You **must** add your own personal touch however!
-  * [Parallax mapping](https://learnopengl.com/Advanced-Lighting/Parallax-Mapping)
-  * [Cubemaps](https://learnopengl.com/Advanced-OpenGL/Cubemaps)
-
-### Rubric
-
-<table>
-  <tbody>
-    <tr>
-      <th>Points</th>
-      <th align="center">Description</th>
-    </tr>
-    <tr>
-      <td>(30%) Project Completion</td>
-     <td align="left"><ul><li>(10%) Does the project compile and run.</li><li>Is it polished without any bugs (No weird visual artifacts).</li><li>(15%)Did you make a video?</li><li>(5%)Did you add a screenshot of your project to the repository?</li></ul></td>
-    </tr>
-    <tr>
-      <td>(40%) Technical</td>
-      <td align="left"><ul><li>Was the implementation of the project challenging?</li><li>Even if you followed a tutoral, it should not be trivial, and have some personal touch to it.</li><li>Did you have to organize/process a sufficient amount of data?</li><li>Was it clear you consulted some outside resources that go above and beyond the scope of this class</li></ul></td>
-    </tr>
-    <tr>
-      <td>(30%) Creativity</td>
-      <td align="left"><ul><li>How visually appealing is the scene?<ul><li>Note: There should be some 'wow' factor--instructors discretion is used here relative to previous projects.</li></ul></li><li>How original is the project<ul><li>Again, did you enhance a tutorial and do something unique or just go by the book?</li></ul></li></ul></td>
-    </tr>
-  </tbody>
-</table>
+The default scene is *the Parallax at Dawn*, to render the scene with brick wall comparisons uncomment [this line](https://github.com/bosakad/Parallax_Mapping/blob/3ebf91773ee46b476eb435bd8be9ed2d236ecfe9/src/main.cpp#L248)).
