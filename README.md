@@ -13,7 +13,7 @@ The project incorporates various parallax mapping techniques, providing a compre
 The proposed method (4.) employs linear steep Parallax steps to approximate texture displacement (line B in the Image 1.[^1] connects this approximation with previous step). This approximation is refined through a binary search applied on the vector B (the stopping criteria is dependent on the squared norm of the distance of the two texture coordinates), followed by linear interpolation similar to Parallax Occlusion Mapping. See Image 1. for a visual representation.
 
 <p align="center">
-  <img src="Parallax_Mapping/results/BinarySearch.png" alt="Alternate Text" width="600" 
+  <img src="results/BinarySearch.png" alt="Alternate Text" width="600" 
      height="400">
   <br>
   <em>1. Image showing the modified Parallax Occlusion Mapping.</em>
@@ -28,12 +28,12 @@ In summary, the parallax occlusion mapping method with binary search is superior
 
 | Method               | Distance               | Closeup               |
 | ---------------------- | ---------------------- | ---------------------- |
-| (4.) Parallax occlusion mapping with Binary search                | ![v1](Parallax_Mapping/results/brickWall/binary1.png) | ![v2](Parallax_Mapping/results/brickWall/binary2.png) |
-| (3.) Parallax occlusion mapping| ![v1](Parallax_Mapping/results/brickWall/occlusion1.png) | ![v2](Parallax_Mapping/results/brickWall/occlusion2.png) |
-| (2.) Steep parallax mapping| ![v1](Parallax_Mapping/results/brickWall/steep1.png) | ![v2](Parallax_Mapping/results/brickWall/steep2.png) |
-| (1.) Parallax mapping with offset limiting| ![v1](Parallax_Mapping/results/brickWall/offset1.png) | ![v2](Parallax_Mapping/results/brickWall/offset2.png) |
-| Normal mapping| ![v1](Parallax_Mapping/results/brickWall/normal.png) | ![v1](Parallax_Mapping/results/brickWall/normal2.png) |
-| Diffuse texture only| ![v1](Parallax_Mapping/results/brickWall/diffuse.png) | ![v1](Parallax_Mapping/results/brickWall/diffuse2.png) |
+| (4.) Parallax occlusion mapping with Binary search                | ![v1](results/brickWall/binary1.png) | ![v2](results/brickWall/binary2.png) |
+| (3.) Parallax occlusion mapping| ![v1](results/brickWall/occlusion1.png) | ![v2](results/brickWall/occlusion2.png) |
+| (2.) Steep parallax mapping| ![v1](results/brickWall/steep1.png) | ![v2](results/brickWall/steep2.png) |
+| (1.) Parallax mapping with offset limiting| ![v1](results/brickWall/offset1.png) | ![v2](results/brickWall/offset2.png) |
+| Normal mapping| ![v1](results/brickWall/normal.png) | ![v1](results/brickWall/normal2.png) |
+| Diffuse texture only| ![v1](results/brickWall/diffuse.png) | ![v1](results/brickWall/diffuse2.png) |
 
 
 
@@ -54,7 +54,7 @@ The showcase scene features three distinct ground textures - rocky path, dirt, a
 
 | The Parallax at Dawn               | Wireframe mode               |
 | ---------------------- | ---------------------- |
-| ![v1](Parallax_Mapping/results/ParallaxAtDawn.png) | ![v2](Parallax_Mapping/results/ParallaxAtDawn_wireframe.png)
+| ![v1](results/ParallaxAtDawn.png) | ![v2](results/ParallaxAtDawn_wireframe.png)
 ## Setup
 
 The project includes a python build file that compiles the project into a binary *prog*. To run the program thus:
