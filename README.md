@@ -1,6 +1,6 @@
 # Parallax mapping
  
-This project delves into the application of parallax mapping, a technique that transforms 2D objects into convincing 3D representations. A modified approach to the conventional parallax mapping method is introduced and objectively compared in the initial scene. Additionally, the project includes a detailed showcase scene named *The Parallax at Dawn* where the proposed method is demonstrated.
+This project delves into the application of parallax mapping, a technique that transforms 2D objects into convincing 3D representations. A modified approach to the conventional parallax mapping method is introduced and objectively compared in the initial scene. Additionally, the project includes a detailed showcase scene named *The Parallax at Dawn* where the proposed method is demonstrated. The project utilizes OpenGL API.
 
 ## Implementation
 The project incorporates various parallax mapping techniques, providing a comprehensive understanding:
